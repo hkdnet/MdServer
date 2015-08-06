@@ -1,0 +1,9 @@
+
+<h2>markdowns</h2>
+<ul>
+  <% @md_files.each do |md| %>
+    <li>
+      <a href="md/<%= md %>"><%= md %></a>
+    </li>
+  <% end %>
+</ul>
