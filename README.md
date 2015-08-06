@@ -3,7 +3,7 @@ MdServer
 
 markdownで書きためたものを公開するアプリケーションです。
 
-## Description
+## 詳細
 
 ### 機能
 
@@ -32,18 +32,20 @@ markdownで書きためたものを公開するアプリケーションです。
 ## 必要要件
 
 * Ruby
+* Bundler
 
 ## 使い方
 
 * `$ git clone hogehoge`
 * `$ cd MdServer`
+* `$ bundle install`
 * `$ rackup`
 * accsess to `localhost:9292`
 
-## Licence
+## ライセンス / Licence
 
 MIT
 
-## Author
+## 作者
 
 [hkdnet](https://github.com/hkdnet)
